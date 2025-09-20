@@ -26,7 +26,9 @@ https://playwright.dev/docs/running-tests#run-tests-in-ui-mode
 ## How to run test
 - instal node.js -current version
 - open project in visual studio code
-- in visual studio code open terminal and go to folder "JAVONETTASK"
+- in visual studio code open terminal and go to folder "NexioBenefitSystem"
+
+## API
 - go to folder API
 - run command: "npm install"
 - run command: "npx playwright install"

@@ -26,17 +26,10 @@ https://playwright.dev/docs/running-tests#run-tests-in-ui-mode
 ## How to run test
 - instal node.js -current version
 - open project in visual studio code
-- in visual studio code open terminal and go to folder "BenefitSystem"
+- in visual studio code open terminal and go to folder "NexioBenefitSystem"
 
 ## UI
 - go to folder UI
-- run command: "npm install"
-- run command: "npx playwright install"
-- run all tests: "npx playwright test" - when the tests are finished, it will run ise report automatically
-- you can check report in folder playwright-report
-
-## API
-- go to folder API
 - run command: "npm install"
 - run command: "npx playwright install"
 - run all tests: "npx playwright test" - when the tests are finished, it will run ise report automatically
