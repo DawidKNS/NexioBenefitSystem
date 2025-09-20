@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    //"rootDir": "./tests",
+    "strict": true,
+    "esModuleInterop": true,
+    /*This is for "path" module import*/
+    "baseUrl": ".",
+    /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+      /* Specify a set of entries that re-map imports to additional lookup locations. */
+      "@pages/*": [
+        "./pageFactory/*.ts"
+      ],
+      "@lib/*": [
+        "./lib/*.ts"
+      ],
+      "@config/*": [
+        "./playwright.config.ts"
+      ]
+    }
+  },
+  "include": [
+    "./tests/**/*.ts",
+    "./pageFactory/**/*.ts",
+    "./fixture/**/*.ts",
+    "./lib/**/*.ts",
+    "./playwright.config.ts"
+  ],
+  "exclude": [
+    "../node_modules"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "BenefitSystem_Tests",
+  "version": "1.0.0",
+  "description": "Tasks",
+  "author": "DKNS",
+  "license": "ISC",
+  "scripts": {
+    "test": "npx playwright test",
+    "installP": "npx playwright install",
+    "instalNPM": "npm install"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.44",
+    "playwright": "^1.44",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DawidKNS/NexioBenefitSystem"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "playwright-json-summary-reporter": "^1.0.1",
+    "typescript": "^5.3.2"
+  }
+}
